@@ -1,0 +1,91 @@
+@font-face {
+  font-family: overwatch-italic;
+  src: url(https://us.battle.net/forums/static/fonts/bignoodletoo/bignoodletoo.woff);
+}
+
+@font-face {
+  font-family: overwatch;
+  src: url(https://us.battle.net/forums/static/fonts/f014015d/f014015d.woff);
+}
+
+html {
+    width: 100%;
+    height: auto;
+    background-image: url(img/background.svg);
+}
+
+body {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    font-family: 'overwatch-italic';
+    font-size: 2em;
+    color: white;
+}
+
+.side-menu ul{
+    padding-top: 20%;
+    padding-bottom: 50%;
+}
+
+.side-menu li {
+    list-style: none;
+    font-size: 1.5em;
+    font-style: italic;
+    font-size: bold;
+    padding-left: 20px;
+}
+
+.side-menu li:hover {
+  padding-left: 50px;
+  transform: scaleY(1.1);
+}
+
+.texte {
+    font-family: 'overwatch';
+    padding-top: 5%;
+    color: #E0E0E0;
+    font-size: 0.8em;
+}
+
+#title-side-menu {
+    font-size: 3em;
+    padding-left: 55px;
+    padding-top: 5%;
+}
+
+.menu {
+    background-color: rgba(0,0,0,0.4);
+}
+
+.titre {
+    font-family: 'overwatch-italic';
+    font-size: 2em;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    color: white;
+    padding-left: 10px;
+}
+
+#video {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+}
+
+.selected {
+    color: #212121;
+    background: #FFC107;
+    border-radius: 10px;
+    padding-left: 0;
+}
+
+.side-menu .selected:hover {
+    padding-left: 20px;
+    transform: rotateY(0);
+}
