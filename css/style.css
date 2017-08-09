@@ -25,6 +25,10 @@ body {
     color: white;
 }
 
+li {
+    cursor: default;
+}
+
 .side-menu ul{
     padding-top: 20%;
     padding-bottom: 50%;
@@ -43,11 +47,15 @@ body {
   transform: scaleY(1.1);
 }
 
-.texte {
+.text {
     font-family: 'overwatch';
     padding-top: 5%;
     color: #E0E0E0;
     font-size: 0.8em;
+}
+
+.text-content {
+    margin-left: 20px;
 }
 
 #title-side-menu {
